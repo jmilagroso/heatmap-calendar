@@ -1,3 +1,3 @@
 # heamap-calendar
 
-[Demo](https://jmilagroso.github.io/heamap-calendar/)
+[Demo](https://jmilagroso.github.io/heatmap-calendar/)
