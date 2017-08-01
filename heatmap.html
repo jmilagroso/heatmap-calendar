@@ -1,0 +1,16 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cal-heatmap/3.3.10/cal-heatmap.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cal-heatmap/3.3.10/cal-heatmap.css" />
+
+
+<div id="cal-heatmap"></div>
+<script type="text/javascript">
+	/// Configurable
+	var cal = new CalHeatMap();
+	cal.init({
+		domain: "hour",
+		start: new Date(2000, 0),
+		data: "http://cal-heatmap.com/datas-years.json",
+		range: 24
+	});
+</script>
